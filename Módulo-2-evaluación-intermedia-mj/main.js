@@ -32,6 +32,9 @@ function handleNumberInput(event) {
   } else if (userNumber >= randomNumber) {
     clue.innerHTML = 'Este número es demasiado alto, ¡prueba otra vez! :) ';
   }
+
+  const totalGuesses = 0;
+  const counter = document.querySelector('.js-counter');
 }
 
 btn.addEventListener('click', handleNumberInput);
